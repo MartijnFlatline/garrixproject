@@ -16,22 +16,15 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "announcement_KRgfpA": {
-          "type": "announcement",
-          "settings": {
-            "text": "Special Sziget Edition",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_KRgfpA"
+        "announcement-bar-0"
       ],
       "disabled": true,
       "settings": {
