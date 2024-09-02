@@ -82,25 +82,25 @@
         "featured_collection_aGRhtg": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "replay-for-garrix"
           }
         },
         "featured_collection_L9iMRp": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "stmpd-collection"
           }
         },
         "featured_collection_P8AbED": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "accessoires"
           }
         },
         "featured_collection_CTnQ3q": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "garrix-collection"
           }
         }
       },
@@ -126,6 +126,23 @@
     "slideshow_jhCmKT": {
       "type": "slideshow",
       "blocks": {
+        "slide_giQk8y": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_xHVqnW": {
           "type": "slide",
           "settings": {
@@ -162,6 +179,7 @@
         }
       },
       "block_order": [
+        "slide_giQk8y",
         "slide_xHVqnW",
         "slide_BBafV7"
       ],
