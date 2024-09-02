@@ -9,7 +9,9 @@
 */
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/garrix-logo.svg",
     "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/garrix-logo.svg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -43,7 +45,7 @@
     "inputs_shadow_blur": 5,
     "card_style": "standard",
     "card_image_padding": 0,
-    "card_text_alignment": "left",
+    "card_text_alignment": "center",
     "card_color_scheme": "scheme-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
@@ -120,7 +122,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
