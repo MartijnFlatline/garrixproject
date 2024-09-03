@@ -36,6 +36,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/MG-header.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -129,13 +130,14 @@
         "slide_xHVqnW": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/mg-summer-collection.webp",
             "heading": "<strong>SUMMER 2024 COLLECTION<\/strong>",
             "heading_size": "h1",
             "subheading": "STMPD \/ GARRIX",
             "button_label": "SHOP NOW",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -146,13 +148,14 @@
         "slide_BBafV7": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner_replay_sunset.jpg",
             "heading": "<strong>New Collection!<\/strong>",
             "heading_size": "h1",
             "subheading": "Replay for Garrix",
             "button_label": "CHECK THEM OUT!",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
