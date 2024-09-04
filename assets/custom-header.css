@@ -1,0 +1,128 @@
+@media screen and (max-width: 1024px) {
+    .custom-header .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .custom-header .container {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .custom-header .container {
+        padding: 0 150px;
+    }
+}
+
+.custom-header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-header .logo {
+    display: flex;
+    order: 2;
+    justify-content: center;
+    flex: 1 0 33.33%;
+}
+
+.custom-header .logo h1 {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.hamburger-menu {
+    order: 1;
+    display: none;
+    height: 30px;
+    flex: 1 0 33.33%;
+}
+
+.hamburger-icon {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.hamburger-icon svg {
+    height: 30px;
+}
+
+.custom-header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    order: 1;
+    flex: 1 33.33%;
+    position: relative;
+}
+
+.custom-header nav a, .custom-header nav button {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.custom-header nav div {
+    position: absolute;
+    z-index: 4;
+    background: white;
+    top: 50px;
+    left: 180px;
+    padding: 0 30px;
+}
+
+.custom-header nav > *:hover {
+    cursor: pointer;
+}
+
+.custom-header nav button {
+    background-color: transparent;
+    border: none;
+}
+
+nav button svg {
+    height: 10px;
+}
+
+.action-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    order: 3;
+    flex: 1 33.33%;
+}
+
+.action-links a {
+    display: flex;
+}
+
+.action-links .header-icon {
+    height: fit-content;
+    width: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .custom-header .content nav{
+        display: none;
+    }
+
+    .custom-header .hamburger-menu {
+        order: 1;
+    }
+
+    #account-icon {
+        display: none;
+    }
+}
