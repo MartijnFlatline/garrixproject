@@ -5,19 +5,14 @@
 <section class="swiper-slider">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        {% if section.settings.slide_image_1 %}
+        {% if section.settings.slide_text %}
+            <div class="swiper-slide">
+              <h3>{{ section.settings.slide_text }}</h3>
+            </div>
+          {% endif %}
+        {% if section.settings.slide_image %}
           <div class="swiper-slide">
-            <img src="{{ section.settings.slide_image_1 | img_url: 'original' }}" alt="Slide 1" height="100%" width="100%">
-          </div>
-        {% endif %}
-        {% if section.settings.slide_image_2 %}
-          <div class="swiper-slide">
-            <img src="{{ section.settings.slide_image_2 | img_url: 'original' }}" alt="Slide 2" height="100%" width="100%">
-          </div>
-        {% endif %}
-        {% if section.settings.slide_image_3 %}
-          <div class="swiper-slide">
-            <img src="{{ section.settings.slide_image_3 | img_url: 'original' }}" alt="Slide 3" height="100%" width="100%">
+            <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
           </div>
         {% endif %}
       </div>
