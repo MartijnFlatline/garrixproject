@@ -159,12 +159,21 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "section_swiper_slider_ydMRtf": {
+      "type": "section-swiper-slider",
+      "settings": {
+        "slide_image_1": "shopify:\/\/shop_images\/MMG353FRONT.png",
+        "slide_image_2": "shopify:\/\/shop_images\/DSC19809.png",
+        "slide_image_3": "shopify:\/\/shop_images\/DSC19807.png"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "collection_list_ng8Eka",
-    "slideshow_jhCmKT"
+    "slideshow_jhCmKT",
+    "section_swiper_slider_ydMRtf"
   ]
 }
