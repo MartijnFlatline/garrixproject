@@ -54,7 +54,7 @@
       "settings": {
         "title": "Check out our new arrivals",
         "collection": "all",
-        "all-products-button": "See all products",
+        "all-products-button": "Shop all products",
         "all-products-button-url": "shopify:\/\/collections\/all"
       }
     },
