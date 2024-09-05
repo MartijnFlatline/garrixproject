@@ -12,13 +12,6 @@
                     <h3>{{ section.settings.slide_text1 }}</h3>
                 </div>
             </div>
-            {% if section.settings.slide_image %}
-                <div class="swiper-slide">
-                    <div class="slide-image">
-                        <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
-                    </div>
-                </div>
-            {% endif %}
         {% endif %}
         {% if section.settings.slide_text2 %}
             <div class="swiper-slide">
@@ -26,13 +19,6 @@
                     <h3>{{ section.settings.slide_text2 }}</h3>
                 </div>
             </div>
-            {% if section.settings.slide_image %}
-                <div class="swiper-slide">
-                    <div class="slide-image">
-                        <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
-                    </div>
-                </div>
-            {% endif %}
         {% endif %}
         {% if section.settings.slide_text3 %}
             <div class="swiper-slide">
@@ -40,13 +26,6 @@
                     <h3>{{ section.settings.slide_text3 }}</h3>
                 </div>
             </div>
-            {% if section.settings.slide_image %}
-                <div class="swiper-slide">
-                    <div class="slide-image">
-                        <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
-                    </div>
-                </div>
-            {% endif %}
         {% endif %}
       </div>
     </div>
