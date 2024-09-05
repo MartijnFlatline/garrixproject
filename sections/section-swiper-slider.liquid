@@ -1,5 +1,6 @@
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
 {{ 'swiper-bundle.min.js' | asset_url | script_tag }}
+{{ 'swiper-init.js' | asset_url | script_tag }}
 {{ 'section-swiper-slider.css' | asset_url | stylesheet_tag }}
 
 <section class="swiper-slider">
@@ -7,23 +8,45 @@
       <div class="swiper-wrapper">
         {% if section.settings.slide_text1 %}
             <div class="swiper-slide">
-              <h3>{{ section.settings.slide_text }}</h3>
+                <div class="slide-text">
+                    <h3>{{ section.settings.slide_text1 }}</h3>
+                </div>
             </div>
+            {% if section.settings.slide_image %}
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                    </div>
+                </div>
+            {% endif %}
         {% endif %}
         {% if section.settings.slide_text2 %}
             <div class="swiper-slide">
-              <h3>{{ section.settings.slide_text }}</h3>
+                <div class="slide-text">
+                    <h3>{{ section.settings.slide_text2 }}</h3>
+                </div>
             </div>
+            {% if section.settings.slide_image %}
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                    </div>
+                </div>
+            {% endif %}
         {% endif %}
         {% if section.settings.slide_text3 %}
             <div class="swiper-slide">
-              <h3>{{ section.settings.slide_text }}</h3>
+                <div class="slide-text">
+                    <h3>{{ section.settings.slide_text3 }}</h3>
+                </div>
             </div>
-        {% endif %}
-        {% if section.settings.slide_image %}
-          <div class="swiper-slide">
-            <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
-          </div>
+            {% if section.settings.slide_image %}
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                    </div>
+                </div>
+            {% endif %}
         {% endif %}
       </div>
     </div>
@@ -35,7 +58,7 @@
     "settings": [
     {
         "type": "text",
-        "id": "slide_text",
+        "id": "slide_text1",
         "label": "Slide Text 1"
     },
     {
