@@ -5,11 +5,21 @@
 <section class="swiper-slider">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        {% if section.settings.slide_text %}
+        {% if section.settings.slide_text1 %}
             <div class="swiper-slide">
               <h3>{{ section.settings.slide_text }}</h3>
             </div>
-          {% endif %}
+        {% endif %}
+        {% if section.settings.slide_text2 %}
+            <div class="swiper-slide">
+              <h3>{{ section.settings.slide_text }}</h3>
+            </div>
+        {% endif %}
+        {% if section.settings.slide_text3 %}
+            <div class="swiper-slide">
+              <h3>{{ section.settings.slide_text }}</h3>
+            </div>
+        {% endif %}
         {% if section.settings.slide_image %}
           <div class="swiper-slide">
             <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
@@ -17,29 +27,39 @@
         {% endif %}
       </div>
     </div>
-  </section>
+</section>
 
 {% schema %}
 {
-  "name": "Swiper Slider",
-  "settings": [
+    "name": "Swiper Slider",
+    "settings": [
     {
-      "type": "text",
-      "id": "slide_text",
-      "label": "Slide Text"
+        "type": "text",
+        "id": "slide_text",
+        "label": "Slide Text 1"
     },
     {
-      "type": "image_picker",
-      "id": "slide_image",
-      "label": "Slide Image"
+        "type": "text",
+        "id": "slide_text2",
+        "label": "Slide Text 2"
+        },
+    {
+        "type": "text",
+        "id": "slide_text3",
+        "label": "Slide Text 3"
+    },
+    {
+        "type": "image_picker",
+        "id": "slide_image",
+        "label": "Slide Image"
     }
   ],
-  "presets": [
-    {
-      "name": "Custom slider",
-      "category": "Custom"
-    }
-  ]
+    "presets": [
+        {
+            "name": "Custom slider",
+            "category": "Custom"
+        }
+    ]
 }
 {% endschema %}
 
