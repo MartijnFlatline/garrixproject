@@ -1,0 +1,104 @@
+{{ 'section-marquee-slider.css' | asset_url | stylesheet_tag }}
+
+<section class="marquee-slider">
+    <ul class="marquee-content">
+        {% if section.settings.slide_text1 %}
+            <li>
+                <h3>{{ section.settings.slide_text1 }}</h3>
+            </li>
+            {% if section.settings.slide_image %}
+                <li class="slide-image">           
+                    <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                </li>
+            {% endif %}
+        {% endif %}
+        {% if section.settings.slide_text2 %}
+            <li>
+                <h3>{{ section.settings.slide_text2 }}</h3>
+            </li>
+            {% if section.settings.slide_image %}
+                <li class="slide-image">           
+                    <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                </li>
+            {% endif %}
+        {% endif %}
+        {% if section.settings.slide_text3 %}
+            <li>
+                <h3>{{ section.settings.slide_text3}}</h3>
+            </li>
+            {% if section.settings.slide_image %}
+                <li class="slide-image">           
+                    <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                </li>
+            {% endif %}
+        {% endif %}
+    </ul>
+    <ul class="marquee-content" aria-hidden="true">
+        {% if section.settings.slide_text1 %}
+            <li>
+                <h3>{{ section.settings.slide_text1 }}</h3>
+            </li>
+            {% if section.settings.slide_image %}
+                <li class="slide-image">            
+                    <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                </li>
+            {% endif %}
+        {% endif %}
+        {% if section.settings.slide_text2 %}
+            <li>
+                <h3>{{ section.settings.slide_text2 }}</h3>
+            </li>
+            {% if section.settings.slide_image %}
+                <li class="slide-image">          
+                    <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                </li>
+            {% endif %}
+        {% endif %}
+        {% if section.settings.slide_text3 %}
+            <li>
+                <h3>{{ section.settings.slide_text3}}</h3>
+            </li>
+            {% if section.settings.slide_image %}
+                <li class="slide-image">          
+                    <img src="{{ section.settings.slide_image | img_url: 'original' }}" alt="Slide image" height="100%" width="100%">
+                </li>
+            {% endif %}
+        {% endif %}
+    </ul>
+</section>
+
+{% schema %}
+{
+    "name": "Marquee Slider",
+    "settings": [
+    {
+        "type": "text",
+        "id": "slide_text1",
+        "label": "Slide Text 1"
+    },
+    {
+        "type": "text",
+        "id": "slide_text2",
+        "label": "Slide Text 2"
+        },
+    {
+        "type": "text",
+        "id": "slide_text3",
+        "label": "Slide Text 3"
+    },
+    {
+        "type": "image_picker",
+        "id": "slide_image",
+        "label": "Slide Image"
+    }
+  ],
+    "presets": [
+        {
+            "name": "Marquee slider",
+            "category": "Custom"
+        }
+    ]
+}
+{% endschema %}
+
+
