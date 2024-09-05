@@ -8,6 +8,7 @@
   <ul class="products-container">
     {% for item in section.settings.collection.products %}
       <li class="product-card">
+        <a href="{{ item.url }}" class="product-link">
           <div class="product-image">
             <img src="{{ item.featured_image | img_url: 'master' }}" alt="{{ item.title }}" height="250" width="250">
           </div>
@@ -15,11 +16,19 @@
             <p class='product-title'>{{ item.title }}</p>
             <p class='product-price'>{{ item.price | money }}</p>
             <ul class='product-color'>
-              {% for color in item.variants %}
-                <li>{{ color.title }}</li>
+              {% for option in item.options_with_values %}
+                {% if option.name == 'Color' %}
+                  <div class="color-swatches">
+                    {% for %}
+
+                    {% endfor %}
+                  </div>
+                <li>{{ option.title }}</li>
+                {% endif %}
               {% endfor %}
             </ul>
           </div>
+        </a>
       </li>
     {%  endfor %}
   </ul>
