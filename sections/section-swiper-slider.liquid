@@ -1,0 +1,56 @@
+{{ 'section-swiper-slider.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle.min.js' | asset_url | script_tag }}
+
+<section class="swiper-slider">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% if section.settings.slide_image_1 %}
+          <div class="swiper-slide">
+            <img src="{{ section.settings.slide_image_1 | img_url: 'original' }}" alt="Slide 1" height="100%" width="100%">
+          </div>
+        {% endif %}
+        {% if section.settings.slide_image_2 %}
+          <div class="swiper-slide">
+            <img src="{{ section.settings.slide_image_2 | img_url: 'original' }}" alt="Slide 2" height="100%" width="100%">
+          </div>
+        {% endif %}
+        {% if section.settings.slide_image_3 %}
+          <div class="swiper-slide">
+            <img src="{{ section.settings.slide_image_3 | img_url: 'original' }}" alt="Slide 3" height="100%" width="100%">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+{% schema %}
+{
+  "name": "Swiper Slider",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "slide_image_1",
+      "label": "Slide Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_image_2",
+      "label": "Slide Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "slide_image_3",
+      "label": "Slide Image 3"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+
