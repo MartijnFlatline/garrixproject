@@ -1,3 +1,5 @@
 {% if section.settings.all-products-button != blank and section.settings.all-products-button-url != blank %}
-    <a href="{{ section.settings.all-products-button-url }}" class="all-products-button">{{ section.settings.all-products-button }}</a>
+    <div class="button-holder">
+        <a href="{{ section.settings.all-products-button-url }}" class="all-products-button">{{ section.settings.all-products-button }}</a>
+    </div>
 {% endif %}

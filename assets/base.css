@@ -3600,3 +3600,18 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.all-products-button {
+  padding: 10px 25px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}

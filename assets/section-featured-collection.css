@@ -1,0 +1,39 @@
+.collection-container {
+    padding: 75px 0;
+}
+
+.collection-title h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.products-container ul, .products-container li {
+    list-style-type: none;
+}
+
+.products-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.product-card {
+    flex: 1 0 calc( 25% - 80px);
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-info p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-color {
+    padding: 0;
+}
