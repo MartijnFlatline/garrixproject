@@ -4,7 +4,13 @@
   <div class="container">
     <div class="content">
       <div class="logo">
-        <h1 class="">{{ shop.name }}</h1>
+        {% if settings.logo %}
+          <a href="{{ shop.url }}" class="store-logo">
+            <img src="{{ settings.logo | img_url: 'master' }}" alt="{{ shop.name }}" width="100px" height="75px">
+          </a>
+        {% else %}
+          <a href="{{ shop.url }}" class="store-logo">{{ shop.name }}</a>
+        {% endif %}
       </div>
 
       <div class="hamburger-menu">

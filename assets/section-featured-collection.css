@@ -1,7 +1,3 @@
-.collection-container {
-    padding: 75px 0;
-}
-
 .collection-title h2 {
     text-align: center;
     font-weight: bold;
@@ -25,6 +21,10 @@
 
 .product-card:hover {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.product-card .product-link {
+    text-decoration: none;
 }
 
 .product-card .product-image {

@@ -3608,10 +3608,16 @@ details-disclosure > details {
 }
 
 .all-products-button {
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: 2px solid black;
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
   color: black;
+  transition: .2s all;
+}
+
+.all-products-button:hover {
+  background-color: black;
+  color: white;
 }
