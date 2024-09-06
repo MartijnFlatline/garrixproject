@@ -157,7 +157,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
@@ -175,7 +175,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
