@@ -111,17 +111,18 @@
         "slide_keH3F8": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/mg-summer-collection.webp",
+            "heading": "<strong>SUMMER 2024 COLLECTION<\/strong>",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "STMPD \/ GARRIX",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/new-arrivals",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
