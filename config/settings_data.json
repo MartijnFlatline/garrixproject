@@ -18,8 +18,8 @@
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 50,
-    "spacing_grid_vertical": 50,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
@@ -140,6 +140,11 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -181,7 +186,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#000000",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
