@@ -95,7 +95,7 @@
       "settings": {
         "title": "<strong>Shop by category<\/strong>",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 2,
         "color_scheme": "scheme-4",
         "show_view_all": false,
