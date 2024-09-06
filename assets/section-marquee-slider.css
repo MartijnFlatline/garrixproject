@@ -3,6 +3,8 @@
     overflow: hidden;
     user-select: none;
     background-color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .marquee-slider:hover .marquee-content {
@@ -15,8 +17,9 @@
     justify-content: space-around;
     min-width: 100%;
     gap: 40px;
-    margin: 5px;
+    margin: 15px;
     animation: scroll 45s linear infinite;
+    padding: 0;
 }
 
 .marquee-slider  .marquee-content li {
@@ -34,7 +37,7 @@
 }
 
 .marquee-slider  .marquee-content li h3 {
-    font-size: 7rem;
+    font-size: 6rem;
     margin: 0;
     color: transparent;
     text-transform: uppercase;

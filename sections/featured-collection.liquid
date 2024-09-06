@@ -9,24 +9,30 @@
     {% for item in section.settings.collection.products %}
       <li class="product-card">
         <a href="{{ item.url }}" class="product-link">
-          <div class="product-image">
-            <img src="{{ item.featured_image | img_url: 'master' }}" alt="{{ item.title }}" height="250" width="250">
+          <div class="product-image-container">
+            <img src="{{ item.featured_image | img_url: 'master' }}" class="product-image primary-image" alt="{{ item.title }}" height="250" width="250" >
+            <img src="{{ item.images[1].src | img_url: 'master' }}" class="product-image secondary-image" alt="{{ item.title }}" height="250" width="250">
           </div>
           <div class="product-info">
             <p class='product-title'>{{ item.title }}</p>
             <p class='product-price'>{{ item.price | money }}</p>
+            {% if product.available %}
+                <p class="available">Beschikbaar</p>
+            {% else %}
+                <p class="sold-out">Uitverkocht</p>
+            {% endif %}
             <ul class='product-color'></ul>
           </div>
         </a>
       </li>
-    {%  endfor %}
+    {% endfor %}
   </ul>
   {% render 'all-products-button' %}
 </div>
 
 {% schema %}
 {
-  "name": "Custom Collection Martijn",
+  "name": "Custom Collection",
   "settings": [
     {
       "type": "text",
@@ -53,7 +59,7 @@
   ],
   "presets": [
     {
-      "name": "Custom Collection Martijn"
+      "name": "Custom Collection"
     }
   ]
 }

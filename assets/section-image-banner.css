@@ -397,6 +397,7 @@
 
 .banner__box > * + .banner__text {
   margin-top: 1.5rem;
+  order: 1;
 }
 
 @media screen and (min-width: 750px) {
@@ -435,6 +436,7 @@
 
 .banner__heading {
   margin-bottom: 0;
+  order: 2;
 }
 
 .banner__box .banner__heading + * {
@@ -447,6 +449,7 @@
   gap: 1rem;
   max-width: 45rem;
   word-break: break-word;
+  order: 3;
 }
 
 @media screen and (max-width: 749px) {
