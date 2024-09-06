@@ -97,7 +97,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 2,
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -108,6 +108,23 @@
     "slideshow_jhCmKT": {
       "type": "slideshow",
       "blocks": {
+        "slide_keH3F8": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_xHVqnW": {
           "type": "slide",
           "settings": {
@@ -146,6 +163,7 @@
         }
       },
       "block_order": [
+        "slide_keH3F8",
         "slide_xHVqnW",
         "slide_BBafV7"
       ],
@@ -163,9 +181,9 @@
     "section_swiper_slider_ydMRtf": {
       "type": "section-swiper-slider",
       "settings": {
-        "slide_image_1": "shopify:\/\/shop_images\/MMG353FRONT.png",
-        "slide_image_2": "shopify:\/\/shop_images\/DSC19809.png",
-        "slide_image_3": "shopify:\/\/shop_images\/DSC19807.png"
+        "slide_text1": "",
+        "slide_text2": "",
+        "slide_text3": ""
       }
     }
   },
