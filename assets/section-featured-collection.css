@@ -1,9 +1,11 @@
 .collection-container {
     padding-block: 5rem;
 }
+
 .collection-title h2 {
     text-align: center;
     font-weight: bold;
+    font-size: 4rem;
 }
 
 .products-container ul, .products-container li {
