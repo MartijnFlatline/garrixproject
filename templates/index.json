@@ -117,7 +117,7 @@
             "subheading": "STMPD \/ GARRIX",
             "button_label": "SHOP NOW",
             "link": "shopify:\/\/collections\/new-arrivals",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
