@@ -121,7 +121,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
@@ -139,7 +139,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
@@ -157,7 +157,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
@@ -166,7 +166,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner3.jpg",
-            "heading": "The Garrix '10'",
+            "heading": "<strong>The Garrix '10'<\/strong>",
             "heading_size": "h1",
             "subheading": "Exclusive note for charity",
             "button_label": "SHOP NOW",
@@ -175,7 +175,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 20,
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
@@ -193,7 +193,7 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 30,
             "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
