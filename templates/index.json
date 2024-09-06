@@ -217,12 +217,13 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "section_swiper_slider_ydMRtf": {
-      "type": "section-swiper-slider",
+    "section_marquee_slider_ED4zfr": {
+      "type": "section-marquee-slider",
       "settings": {
         "slide_text1": "SHOP EXCLUSIVE MERCH",
         "slide_text2": "OFFICIAL MARTIN GARRIX SHOP",
-        "slide_text3": "GLOBAL SHIPPING"
+        "slide_text3": "GLOBAL SHIPPING",
+        "slide_image": "shopify:\/\/shop_images\/garrix-logo-wit.svg"
       }
     }
   },
@@ -231,6 +232,6 @@
     "featured_collection",
     "collection_list_ng8Eka",
     "slideshow_jhCmKT",
-    "section_swiper_slider_ydMRtf"
+    "section_marquee_slider_ED4zfr"
   ]
 }
