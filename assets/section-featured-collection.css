@@ -1,11 +1,11 @@
 .collection-container {
-    padding-block: 5rem;
+    padding-block: 12rem;
 }
 
 .collection-title h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .products-container ul, .products-container li {
@@ -86,7 +86,7 @@
     font-size: 1.7rem;
 }
 
-.product-card .product-info p {
+.product-card .product-info p, .product-card .product-info h4 {
     margin: 0;
     text-align: center;
 }

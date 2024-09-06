@@ -3622,3 +3622,13 @@ details-disclosure > details {
   background-color: black;
   color: white;
 }
+
+@font-face {
+  font-family: 'garrix-font';
+  src: url('garrix-font.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'garrix-font2';
+  src: url('garrix-font2.woff2') format('woff2');
+}

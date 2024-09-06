@@ -11,10 +11,10 @@
         <a href="{{ item.url }}" class="product-link">
           <div class="product-image-container">
             <img src="{{ item.featured_image | img_url: 'master' }}" class="product-image primary-image" alt="{{ item.title }}" height="250" width="250" >
-            <img src="{{ item.images[1].src | img_url: 'master' }}" class="product-image secondary-image" alt="{{ item.title }}" height="250" width="250">
+            <img src="{{ item.images[1].src | img_url: 'master' }}" class="product-image secondary-image" alt="{{ item.title }}">
           </div>
           <div class="product-info">
-            <p class='product-title'>{{ item.title }}</p>
+            <h4 class='product-title'>{{ item.title }}</h4>
             <p class='product-price'>{{ item.price | money }}</p>
             {% if product.available %}
                 <p class="available">Beschikbaar</p>
