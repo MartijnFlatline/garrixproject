@@ -4,6 +4,6 @@
 
 <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%Y-%m-%d' }}</time>
 
-<img src="{{ article.img | img_url: 'master' }}" alt="{{ article.img.alt }}">
+{% comment %} <img src="{{ article.img | img_url: 'lazy' }}" alt="{{ article.img.alt }}"> {% endcomment %}
 
 <div class="">{{ article.content }}</div>
