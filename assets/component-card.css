@@ -10,6 +10,11 @@
   text-align: var(--text-alignment);
 }
 
+.card:nth-child(2) {
+  width: 60%;
+  height: fit-content;
+}
+
 .card:not(.ratio) {
   display: flex;
   flex-direction: column;
