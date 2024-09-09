@@ -26,6 +26,7 @@ ul li:nth-of-type(3) .card-wrapper {
 ul li:nth-of-type(2) .card-wrapper .card, ul li:nth-of-type(3) .card-wrapper .card {
   width: 60%;
   height: fit-content;
+  position: relative;
 }
 
 /* ul li:nth-child(2) .card-wrapper {
@@ -164,6 +165,9 @@ ul li:nth-of-type(2) .card-wrapper .card, ul li:nth-of-type(3) .card-wrapper .ca
 
 .card:not(.ratio) > .card__content {
   grid-template-rows: max-content minmax(0, 1fr) max-content auto;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
 }
 
 .card-information .card__information-volume-pricing-note {
