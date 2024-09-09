@@ -10,10 +10,28 @@
   text-align: var(--text-alignment);
 }
 
-.card:nth-child(2) {
+ul li:nth-of-type(2) .card-wrapper, ul li:nth-of-type(3) .card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+ul li:nth-of-type(2) .card-wrapper {
+  align-items: flex-end;
+}
+
+ul li:nth-of-type(3) .card-wrapper {
+  align-items: flex-start;
+}
+
+ul li:nth-of-type(2) .card-wrapper .card, ul li:nth-of-type(3) .card-wrapper .card {
   width: 60%;
   height: fit-content;
 }
+
+/* ul li:nth-child(2) .card-wrapper {
+  width: 60%;
+  height: fit-content;
+} */
 
 .card:not(.ratio) {
   display: flex;
