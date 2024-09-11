@@ -3623,6 +3623,20 @@ details-disclosure > details {
   color: white;
 }
 
+.custom-title.text-left {
+  text-align: left;
+}
+
+.custom-title.text-right {
+  text-align: right;
+}
+
+.custom-title.text-center {
+  text-align: center;
+}
+
+
+
 @font-face {
   font-family: 'garrix-font';
   src: url('garrix-font.woff2') format('woff2');

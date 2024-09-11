@@ -103,10 +103,17 @@ nav button svg {
     display: flex;
 }
 
-.action-links .header-icon {
+.header-icon {
     height: fit-content;
     width: 20px;
     font-weight: bold;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.header-icon:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,4 +1,32 @@
 {{ 'section-featured-collection.css' | asset_url | stylesheet_tag }}
+<script defer src="{{ 'swatches.js' | asset_url }}"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    {% comment %} console.log(window.colors); {% endcomment %}
+
+    document.querySelectorAll('.variant-color').forEach(variantElement => {
+
+      console.log(variantElement);
+      const colorName = variantElement.dataset.colorName;
+
+      console.log(colorName);
+
+      // Zoek naar een overeenkomstige kleur in de colors array
+      const colorMatch = window.colors.find(color => color[colorName]);
+
+      if (colorMatch) {
+        // Als er een match is, log of voer de benodigde actie uit
+        const hexValue = colorMatch[colorName];
+        {% comment %} console.log(`Match gevonden: Kleur naam: ${colorName}, Hex waarde: ${hexValue}`); {% endcomment %}
+
+        // Optioneel: Voeg een stijl toe aan de variant om aan te geven dat er een match is
+        variantElement.style.backgroundColor = hexValue;
+        variantElement.style.color = '#fff'; // Voor de leesbaarheid
+      }
+    });
+  });
+</script>
 
 <div class="collection-container page-width">
   <div class="collection-title">
@@ -10,18 +38,19 @@
       <li class="product-card">
         <a href="{{ item.url }}" class="product-link">
           <div class="product-image-container">
-            <img src="{{ item.featured_image | img_url: 'master' }}" class="product-image primary-image" alt="{{ item.title }}" height="250" width="250" >
+            <img src="{{ item.featured_image | img_url: 'master' }}" class="product-image primary-image" alt="{{ item.title }}" height="250" width="250">
             <img src="{{ item.images[1].src | img_url: 'master' }}" class="product-image secondary-image" alt="{{ item.title }}">
           </div>
           <div class="product-info">
             <h4 class='product-title'>{{ item.title }}</h4>
             <p class='product-price'>{{ item.price | money }}</p>
-            {% if product.available %}
-                <p class="available">Beschikbaar</p>
-            {% else %}
-                <p class="sold-out">Uitverkocht</p>
-            {% endif %}
-            <ul class='product-color'></ul>
+    
+            <ul class='product-color'>
+              {% for variant in item.variants %}
+                {% assign color = variant.option1 | downcase %}
+                <li class="variant-color" data-color-name="{{ color }}">{{ color | capitalize }}</li>
+              {% endfor %}
+            </ul>
           </div>
         </a>
       </li>
