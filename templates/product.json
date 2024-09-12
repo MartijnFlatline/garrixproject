@@ -41,18 +41,6 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "wishlist_king_wishlist_button_block_AcGeP8": {
           "type": "shopify:\/\/apps\/wishlist-king\/blocks\/wishlist-button-block\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
           "settings": {
@@ -71,6 +59,18 @@
             "icon_offset_vertical": 0
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -84,9 +84,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "wishlist_king_wishlist_button_block_AcGeP8",
         "buy_buttons",
         "description",
-        "wishlist_king_wishlist_button_block_AcGeP8",
         "share"
       ],
       "settings": {
