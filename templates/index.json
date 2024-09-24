@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>+x DRONE TEE<\/strong>",
+            "heading": "<strong>+x DRONE TEE</strong>",
             "heading_size": "h0"
           }
         },
@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MG-header.webp",
+        "image": "shopify://shop_images/MG-header.webp",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -55,7 +55,7 @@
         "title": "Check out our new arrivals",
         "collection": "all",
         "all-products-button": "Shop all products",
-        "all-products-button-url": "shopify:\/\/collections\/all"
+        "all-products-button-url": "shopify://collections/all"
       }
     },
     "collection_list_ng8Eka": {
@@ -93,7 +93,7 @@
         "featured_collection_CTnQ3q"
       ],
       "settings": {
-        "title": "<strong>Shop by category<\/strong>",
+        "title": "<strong>Shop by category</strong>",
         "heading_size": "h1",
         "image_ratio": "portrait",
         "columns_desktop": 2,
@@ -111,12 +111,12 @@
         "slide_keH3F8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mg-summer-collection.webp",
-            "heading": "<strong>SUMMER 2024 COLLECTION<\/strong>",
+            "image": "shopify://shop_images/mg-summer-collection.webp",
+            "heading": "<strong>SUMMER 2024 COLLECTION</strong>",
             "heading_size": "h1",
-            "subheading": "STMPD \/ GARRIX",
+            "subheading": "STMPD / GARRIX",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/new-arrivals",
+            "link": "shopify://collections/new-arrivals",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -129,12 +129,12 @@
         "slide_BBafV7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_replay_sunset.jpg",
-            "heading": "<strong>New Collection!<\/strong>",
+            "image": "shopify://shop_images/banner_replay_sunset.jpg",
+            "heading": "<strong>New Collection!</strong>",
             "heading_size": "h1",
             "subheading": "Replay for Garrix",
             "button_label": "CHECK THEM OUT!",
-            "link": "shopify:\/\/collections\/new-arrivals",
+            "link": "shopify://collections/new-arrivals",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -147,12 +147,12 @@
         "slide_Akmy49": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner1.webp",
-            "heading": "<strong>COACH JACKET<\/strong>",
+            "image": "shopify://shop_images/banner1.webp",
+            "heading": "<strong>COACH JACKET</strong>",
             "heading_size": "h1",
             "subheading": "Exclusive STMPD collection",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/new-arrivals",
+            "link": "shopify://collections/new-arrivals",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -165,12 +165,12 @@
         "slide_QFLRaF": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner3.jpg",
-            "heading": "<strong>The Garrix '10'<\/strong>",
+            "image": "shopify://shop_images/banner3.jpg",
+            "heading": "<strong>The Garrix '10'</strong>",
             "heading_size": "h1",
             "subheading": "Exclusive note for charity",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/new-arrivals",
+            "link": "shopify://collections/new-arrivals",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -183,12 +183,12 @@
         "slide_raNkEm": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner2.jpg",
-            "heading": "<strong>+X BLACK\/SILVER HOODIE<\/strong>",
+            "image": "shopify://shop_images/banner2.jpg",
+            "heading": "<strong>+X BLACK/SILVER HOODIE</strong>",
             "heading_size": "h1",
             "subheading": "RESTOCK!",
             "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/new-arrivals",
+            "link": "shopify://collections/new-arrivals",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -220,10 +220,10 @@
     "section_marquee_slider_ED4zfr": {
       "type": "section-marquee-slider",
       "settings": {
-        "slide_text1": "SHOP EXCLUSIVE MERCH",
+        "slide_text1": "SHOP EXCLUSIVE GARRIX MERCH",
         "slide_text2": "OFFICIAL MARTIN GARRIX SHOP",
         "slide_text3": "GLOBAL SHIPPING",
-        "slide_image": "shopify:\/\/shop_images\/garrix-logo-wit.svg"
+        "slide_image": "shopify://shop_images/garrix-logo-wit.svg"
       }
     }
   },
